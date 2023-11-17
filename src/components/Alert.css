@@ -1,0 +1,20 @@
+.alert {
+  padding: 0.75rem 1.25rem;
+  color: var(--mainWhite);
+  text-align: center;
+  margin: 2rem auto 0 auto;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+/* Alert.js에서의 ${type}의 type에서는 danger과 success가 있다. */
+.alert-danger {
+  background: var(--mainRed);
+}
+
+.alert-success {
+  background: var(--mainGreen)
+}
